@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+* {
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: black;
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.reset-button {
+    width: 5%;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.bar-container, .count-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.count {
+    margin: auto;
+    text-align: center;
+}
