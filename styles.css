@@ -30,7 +30,7 @@ button {
     right: 20px;
 }
 
-.bar-container, .count-container {
+.bar-container, .count-container , .FTT-container{
     display: flex;
     flex-direction: column;
     width: 300px;
